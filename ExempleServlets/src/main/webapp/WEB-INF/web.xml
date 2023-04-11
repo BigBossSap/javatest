@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="https://jakarta.ee/xml/ns/jakartaee"
+xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID"
+version="5.0">
+ <display-name>DA2_M05_EAC1_2122S2</display-name>
+ <welcome-file-list>
+ <welcome-file>http://localhost:8080/ExempleServlets/</welcome-file>
+ </welcome-file-list>
+ <servlet>
+ <description>
+</description>
+ <display-name>ServletFormulariEntrada</display-name>
+ <servlet-name>ServletFormulariEntrada</servlet-name>
+ <servlet-class>eac2_web.ServletFormulariEntrada</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>ServletFormulariEntrada</servlet-name>
+ <url-pattern>/ServletFormulariEntrada</url-pattern>
+ </servlet-mapping>
+</web-app>

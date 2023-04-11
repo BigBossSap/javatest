@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR html4/loose.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ <title>Formulari: entrada de dades</title>
+ <meta http-equiv="pragma" content="no-cache">
+ <meta http-equiv="cache-control" content="no-cache">
+ <meta http-equiv="expires" content="0">
+ <meta http-equiv="keywords" content="Formulari, Servlet">
+ <meta http-equiv="description" content="Formulari">
+ </head>
+ <body style="background:#e9e7e7">
+ <center>
+ <table width="600px" height="100%" border="0" cellspacing="0" cellpadding="0" >
+ <tr height="50px" valign="middle" style="background:white">
+ <td align="center"> <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Senyal_de_la_Generalitat
+_de_Catalunya_bicolor.svg/100px-Senyal_de_la_Generalitat_de_Catalunya_bicolor.svg.png"
+alt="gencat" width="45" height="51"/> <br>Generalitat de Catalunya<br> Departament
+d'Educació</td>
+ </tr>
+ <tr style="background:#942713">
+ <td height="3px"></td>
+ </tr>
+ <tr>
+ <td align="left"><img src="http://ioc.xtec.cat/educacio/templates/ioc/images/ioc_logo.png" alt="IOC"/></td>
+ </tr>
+ <tr style="background:#942713">
+ <td height="3px"></td>
+ </tr>
+ <tr>
+ <td height="30" valign="middle"> Espai per a les futures opcions de menú </td>
+ </tr>
+ <tr style="background:#444444">
+<td height="3px"></td>
+ </tr>
+ <tr style="background:white">
+ <td height="100%" align="left">
+ <p>Completar les dades del formulari</p>
+ <!-- Formulari que apunta a un servlet. -->
+<form method="post" action="./ServletFormulariEntrada">
+ <table>
+ <tr>
+ <td>Nom:</td>
+ <td><input type="text" name="nom" size="25"></td>
+ </tr>
+<tr>
+ <td>Cognoms:</td>
+ <td><input type="text" name="cognoms" size="50"></td>
+ </tr>
+<tr>
+ <td>DNI:</td>
+ <td><input type="text" name="DNI" size="10" maxlength="9"></td>
+ </tr>
+<tr>
+ <td>Telèfon:</td>
+ <td><input type="text" name="telefon" size="10" maxlength="9"></td>
+ </tr>
+<tr>
+ <td>Data de naixement:</td>
+ <td><input type="text" name="dataNaixement" size="20"></td>
+ </tr>
+<tr>
+ <td colspan=2><br><input type="submit" value="Enviar"></td>
+ </tr>
+ </table>
+ </form>
+ </td>
+ </tr>
+ <tr style="background:#444444">
+ <td height="3px"></td>
+ </tr>
+ </table>
+ </center>
+ </body>
+</html>
+ 
+ 
